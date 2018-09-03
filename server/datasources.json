@@ -1,0 +1,17 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "mongodb": {
+    "host": "ds141812.mlab.com",
+    "port": "41812",
+    "database": "tesla",
+    "user": "marksama",
+    "password" : "marksama1",
+    "url": "mongodb://marksama:marksama1@ds141812.mlab.com:41812/tesla",
+    "name": "mongodb",
+    "connector": "loopback-connector-mongodb",
+    "collection": "tesla_75d"
+  }
+}
